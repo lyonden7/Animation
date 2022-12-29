@@ -11,7 +11,6 @@ import SpringAnimation
 class AnimationViewController: UIViewController {
 
     // MARK: - IB Outlets
-    
     @IBOutlet var presetLabel: UILabel!
     @IBOutlet var curveLabel: UILabel!
     @IBOutlet var forceLabel: UILabel!
@@ -55,6 +54,7 @@ class AnimationViewController: UIViewController {
     }
 }
 
+// MARK: - Extension - Private Methods
 extension AnimationViewController {
     private func string(from value: Double) -> String {
         String(format: "%.2f", value)
